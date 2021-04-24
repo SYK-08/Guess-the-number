@@ -26,5 +26,9 @@ elif question=='y':
 while guess!= random_number:
     tries += 1
     guess = int(input('Try again:'))
-    if guess==random_number:
+    if guess>random_number:
+        print('Try a smaller number.')
+    elif guess<random_number:
+        print('Try a larger number.')
+    elif guess==random_number:
         print('Awesome! you got it. The number was ',random_number,'and ', 'you did it in ', tries,'tries.')
