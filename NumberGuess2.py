@@ -1,6 +1,6 @@
 import random
 
-random_no = random.randint(1,11)
+random_no = random.randint(1,10)
 tries = 0
 
 Name = input('Welcome, please enter your name:')
